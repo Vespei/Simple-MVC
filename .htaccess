@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^(.+)$ index.php?return=$1 [L,QSA]
